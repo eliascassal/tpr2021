@@ -28,7 +28,7 @@ Route::get ('cursos/create', function ()     {
     return "En esta pagina podras crear cursos";
 });
 
-Route::get ('cursos/{curso}/{categoria?}', function ($curso, $categoria = null){
+Route:: ('cursos/{curso}/{categoria?}', function ($curso, $categoria = null){
     
     if ($categoria){
     return "Bienvenido al curso : $curso, de la categoria : $categoria";}

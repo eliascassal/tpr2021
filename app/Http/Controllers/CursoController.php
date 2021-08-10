@@ -14,10 +14,6 @@ class CursoController extends Controller
         return "Bienvenido a la pagina de cursos";
     }
 
-    public function create(){
-        return "En esta pagina podras crear cursos";
-    }
-
     public function show($curso){
         return "Bienvenido al curso : $curso";
     }
